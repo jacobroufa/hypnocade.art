@@ -1,0 +1,42 @@
+.contact {
+    align-self: flex-start;
+}
+
+.contact form {
+    padding-top: 3em;
+    position: relative;
+    text-align: left;
+}
+
+.contact form fieldset {
+    border: 0;
+    padding-left: 0;
+}
+
+.contact form fieldset > * {
+    display: block;
+    min-width: 150px;
+    width: 50%;
+}
+
+.contact form label {
+    font-size: 0.85rem;
+    padding-bottom: 0.25rem;
+}
+
+.contact form label:has(+ input[required]):after,
+.contact form label:has(+ textarea[required]):after {
+    color: #fc2b2b;
+    content: '*';
+    margin-left: 0.25rem;
+}
+
+.contact form textarea {
+    height: 8rem;
+}
+
+.contact form button {
+    margin-top: 1rem;
+    position: absolute;
+    right: 50%;
+}

@@ -1,0 +1,133 @@
+:root {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+
+	background-color: #1a1a1a;
+	color: #cccccc;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #fff;
+	letter-spacing: 0.3rem;
+	text-shadow: 1px 0px 1px #ff00b3, 0px 1px 1px #ccc,
+		2px 1px 1px #ff00b3;
+}
+
+a {
+	color: #ff00b3;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #d9ff00;
+}
+
+#app {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+header {
+	background-color: #1a1a1a;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	max-width: 1280px;
+	position: sticky;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+header nav {
+	display: flex;
+	width: 100%;
+}
+
+header .spacer {
+	flex: 1 0 auto;
+}
+
+header a {
+	color: #fff;
+	padding: 1rem 0.75rem;
+	text-decoration: none;
+}
+
+header a.logo {
+	padding: 0.5rem 0.75rem;
+}
+
+header a.logo path {
+	fill: #ff00b3;
+	stroke-width:0.0110281;
+}
+
+header a.active {
+	color: #ffa200;
+}
+
+header a:hover {
+	color: #d9ff00;
+}
+
+header a:hover.logo path {
+	fill: #d9ff00;
+}
+
+main {
+	display: flex;
+	flex: auto;
+	margin: 0 auto;
+	max-width: 1280px;
+	text-align: center;
+}
+
+main > div {
+	align-self: flex-start;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	margin: 3rem auto 0;
+	max-width: 1280px;
+	width: 100%;
+}
+
+footer > * {
+	line-height: 1.5rem;
+	padding: 1rem;
+	vertical-align: middle;
+}
+
+footer .founded {
+	font-size: 0.8rem;
+}
+
+footer .spacer {
+	flex: 1 0 auto;
+}
+
+footer > a {
+	font-size: 1.5rem;
+}
+
+@media (max-width: 639px) {
+	main {
+		margin: 2rem;
+	}
+}

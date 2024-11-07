@@ -1,0 +1,43 @@
+.machines p {
+    margin: 3rem auto;
+    max-width: 85%;
+}
+
+.machines section {
+    display: flex;
+	justify-content: space-evenly;
+}
+
+.machines a {
+    flex: 0 1 auto;
+}
+
+.machines a img {
+    max-width: 300px;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.machines .rollover {
+    position: relative;
+}
+
+.machines .rollover div {
+    display: none;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.machines .rollover div span {
+    font-size: 1.4rem;
+    font-weight: bolder;
+    position: relative;
+    top: calc(50% - 1rem);
+}
+
+.machines a:hover .rollover div {
+    background: rgba(26,26,26,0.8);
+    display: block;
+}

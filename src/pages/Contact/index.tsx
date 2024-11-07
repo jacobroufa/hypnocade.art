@@ -1,12 +1,6 @@
 import './style.css';
 
-export default function Contact() {
-	return (
-		<div class="contact">
-			<h1>Contact Us</h1>
-			<section>
-				<div class="info">Contact us to discuss bringing a Hypnocade unit to your next event! Fill out our contact form or email <a href="mailto:info@hypnocade.art">info@hypnocade.art</a></div>
-
+/**
 				<div class="form">
 					<form>
 						<fieldset>
@@ -27,6 +21,21 @@ export default function Contact() {
 						<button type="submit">Send</button>
 					</form>
 				</div>
+ */
+
+export default function Contact() {
+	return (
+		<div class="contact">
+			<h1>Contact Us</h1>
+			<section>
+				<div class="info">Contact us to discuss bringing a Hypnocade unit to your next event! Email us at <a href="mailto:info@hypnocade.art">info@hypnocade.art</a></div>
+
+				<p>You can also find us on social media:
+					<ul>
+						<li><a href="https://www.instagram.com/hypnocade">Instagram</a></li>
+						<li><a href="https://www.facebook.com/hypnocade">Facebook</a></li>
+					</ul>
+				</p>
 			</section>
 		</div>
 	);

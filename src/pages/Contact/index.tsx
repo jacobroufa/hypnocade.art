@@ -32,8 +32,8 @@ export default function Contact() {
 
 				<p>You can also find us on social media:
 					<ul>
-						<li><a href="https://www.instagram.com/hypnocade">Instagram</a></li>
-						<li><a href="https://www.facebook.com/hypnocade">Facebook</a></li>
+						<li><a href="https://www.instagram.com/hypnocade" target="_blank">Instagram</a></li>
+						<li><a href="https://www.facebook.com/hypnocade" target="_blank">Facebook</a></li>
 					</ul>
 				</p>
 			</section>

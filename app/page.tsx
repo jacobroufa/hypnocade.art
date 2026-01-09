@@ -160,7 +160,7 @@ export default function HomePage() {
               <ul className="space-y-3 text-muted-foreground list-disc list-inside">
                 <li>Complete arcade unit</li>
                 <li>72&quot; × 25&quot; × 36&quot; footprint</li>
-                <li>120V 20 amp power</li>
+                <li>120V 15 amp power</li>
                 <li>HDMI output included</li>
               </ul>
             </div>

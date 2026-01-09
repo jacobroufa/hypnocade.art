@@ -115,7 +115,7 @@ export default function ContactPage() {
                   <ul className="space-y-3 text-muted-foreground list-disc list-inside">
                     <li>Complete arcade unit</li>
                     <li>72&quot; × 25&quot; × 36&quot; footprint</li>
-                    <li>120V 20 amp power</li>
+                    <li>120V 15 amp power</li>
                     <li>HDMI output included</li>
                   </ul>
                 </div>
@@ -172,7 +172,7 @@ export default function ContactPage() {
                 </li>
                 <li className="flex items-start">
                   <div className="w-2 h-2 bg-gray-400 rounded-full mt-2 mr-3 flex-shrink-0" />
-                  <span>Power requirement: a single 120V 20 amp outlet</span>
+                  <span>Power requirement: a single 120V 15 amp outlet</span>
                 </li>
                 <li className="flex items-start">
                   <div className="w-2 h-2 bg-gray-400 rounded-full mt-2 mr-3 flex-shrink-0" />

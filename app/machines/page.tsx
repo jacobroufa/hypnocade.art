@@ -81,7 +81,7 @@ export default function MachinesPage() {
                   </div>
                   <div>
                     <span className="text-muted-foreground">Power:</span>
-                    <div className="font-medium text-foreground">120V 20 amp</div>
+                    <div className="font-medium text-foreground">120V 15 amp</div>
                   </div>
                   <div>
                     <span className="text-muted-foreground">Display:</span>

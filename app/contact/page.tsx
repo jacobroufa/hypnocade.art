@@ -120,7 +120,7 @@ export default function ContactPage() {
                 <h3 className="font-semibold text-foreground mb-2">What power requirements do the machines have?</h3>{" "}
                 {/* Changed text-gray-900 */}
                 <p className="text-muted-foreground">
-                  Each machine requires one 120V 20 amp circuit and a level surface.
+                  Each machine requires one 120V 15 amp circuit and a level surface.
                 </p>{" "}
                 {/* Changed text-gray-600 */}
               </div>

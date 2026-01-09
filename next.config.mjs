@@ -3,7 +3,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  output: 'export'
+  output: 'export',
+  basePath: process.env.PAGES_BASE_PATH
 }
 
 export default nextConfig

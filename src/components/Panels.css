@@ -1,0 +1,7 @@
+.panels {
+    margin-top: 2rem;
+}
+
+.panel:not(.active) {
+    display: none;
+}

@@ -1,0 +1,12 @@
+img {
+    background-size: contain;
+    flex: 1 0 auto;
+    object-fit: contain;
+}
+
+img.thumb {
+    box-shadow: 3px 2px 4px -1px #ccc;
+    cursor: pointer;
+    margin: 1rem;
+    width: 240px;
+}

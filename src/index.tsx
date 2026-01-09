@@ -18,19 +18,17 @@ function NotFound() {
 
 export function App() {
 	return (
-		<>
-			<LocationProvider>
-				<Header />
-				<main>
-					<Router>
-						<Route path="/" component={Home} />
-						<Route path="/machines" component={Machines} />
-						<Route path="/machines/:id" component={Machine} />
-						<Route path="/contact" component={Contact} />
-						<Route default component={NotFound} />
-					</Router>
-				</main>
-			</LocationProvider>
+		<LocationProvider>
+			<Header />
+			<main>
+				<Router>
+					<Route path="/" component={Home} />
+					<Route path="/machines" component={Machines} />
+					<Route path="/machines/:id" component={Machine} />
+					<Route path="/contact" component={Contact} />
+					<Route default component={NotFound} />
+				</Router>
+			</main>
 			<footer>
 				<span class="founded">&copy; 2024 <a href="https://jacobroufa.com" target="_blank">Jacob Roufa</a></span>
 				<span class="spacer">&nbsp;</span>
@@ -41,7 +39,7 @@ export function App() {
 					<FontAwesomeIcon icon={faFacebook} />
 				</a>
 			</footer>
-		</>
+		</LocationProvider>
 	);
 }
 

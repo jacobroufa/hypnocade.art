@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222.2 84% 4.9%; /* dark gray/near black */
+    --foreground: 210 40% 98%; /* off-white */
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 210 40% 98%; /* off-white */
+    --primary-foreground: 222.2 47.4% 11.2%; /* dark gray/near black */
+    --secondary: 217.2 32.6% 17.5%; /* darker gray */
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 210 40% 98%;
+
+    --radius: 0.5rem;
+
+    /* Custom colors for specific elements */
+    --purple-100: 270 100% 15%;
+    --purple-200: 270 100% 20%;
+    --purple-600: 270 100% 70%;
+
+    --pink-100: 330 100% 15%;
+    --pink-600: 330 100% 70%;
+
+    --blue-50: 210 100% 10%;
+    --blue-100: 210 100% 15%;
+    --blue-200: 210 100% 20%;
+    --blue-600: 210 100% 70%;
+    --blue-700: 210 100% 60%;
+    --blue-800: 210 100% 50%;
+
+    --green-50: 120 100% 10%;
+    --green-100: 120 100% 15%;
+    --green-200: 120 100% 20%;
+    --green-600: 120 100% 60%;
+    --green-700: 120 100% 50%;
+    --green-800: 120 100% 40%;
+
+    --gray-50: 217.2 32.6% 17.5%;
+    --gray-100: 217.2 32.6% 17.5%;
+    --gray-300: 217.2 32.6% 27.5%;
+    --gray-400: 215 20.2% 45.1%;
+    --gray-600: 215 20.2% 65.1%;
+    --gray-900: 210 40% 98%;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

@@ -12,7 +12,7 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className="py-20 px-6">
         <div className="max-w-6xl mx-auto text-center">
-          <h1 className="text-6xl md:text-7xl font-bold text-foreground mb-6 leading-tight">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 leading-tight">
             <span className="bg-gradient-to-r from-neon-yellow to-green-600 bg-clip-text text-transparent">
               Interactive&nbsp;
             </span>
@@ -27,7 +27,7 @@ export default function HomePage() {
           <p className="text-xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed">
             Transform any space into an immersive visual playground. Hypnocade machines combine familiar arcade controls with video art tools to create an interactive art experience that responds to your touch.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link
               href="/machines"
               className="inline-flex items-center px-8 py-4 bg-primary text-primary-foreground rounded-full hover:bg-gray-800 transition-colors font-medium hover:text-pink-600"
